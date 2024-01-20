@@ -31,7 +31,7 @@ This is quick and simple.
 Done!
 
 > [!TIP]
-> These shortcuts can only run once you have opened the app in the morning to sync your sleep data. Therefore it is recommended to set the automation to run at a time when you know you will have opened the Oura app, or the scripts will fail to run. It is suggested to set the time for sometime in the afternoon, unless you tend to sync your data as soon as you get up.
+> These shortcuts can only run once you have opened the app in the morning to sync your sleep data. Therefore it is recommended to set the automation to run at a time when you know you will have opened the Oura app, or the scripts will fail to run. It is suggested to set the time for sometime in the afternoon, unless you tend to sync your data as soon as you get up. The data is written as if it was added at 6 am every morning, because this is generally the midpoint of my sleep, you may want to change this to be earlier or later. At some point I may alter it so that the shortcut calculates the midpoint of the sleep period and then writes it to that time.
 
 > [!NOTE]
 > These shortcuts are designed for iPhone, and will not run on MacOS as there is no native Apple Health API available.

@@ -1,6 +1,10 @@
 # OuraAppleHealth
+## V1 (deprecated)
 
-Apple Shortcuts for exporting Oura data to Apple Health using the _V2 API_.
+Apple Shortcuts for exporting Oura data to Apple Health using the _V1 API_.
+
+> [!IMPORTANT]
+> These shorcuts use the soon-to-be deprecated V1 Oura API; see the _main_ branch for up-to-date V2 shortcuts. V1 also does not include blood oxygen.
 
 ## Table of contents
 1. [Introduction](#introduction)
@@ -8,15 +12,13 @@ Apple Shortcuts for exporting Oura data to Apple Health using the _V2 API_.
 2. [Notes](#notes)
     1. [Lowest Resting Heart Rate](#rhr)
     2. [Body Temperature](#temp)
-    3. [Blood Oxygen Saturation](#spo2)
 3. [Contributing](#contributing)
 
 ## Introduction <a name="introduction"></a>
 These shortcuts aim to export four data types from Oura to Health (click the links below to download each shortcut).
-- [Average Heart Rate Variability](https://www.icloud.com/shortcuts/9aa3052c04c64de2877339f9771212dc)
-- [Lowest Resting Heart Rate](https://www.icloud.com/shortcuts/1427ec489e90462b8a46cff3306678a0)
-- [Body Temperature](https://www.icloud.com/shortcuts/53e6629a3ae6442d8e3d31b472c2d6c2)
-- [Blood Oxygen Saturation](https://www.icloud.com/shortcuts/550e3e9a53df46c6a3c2c9f2baaefd0b)
+- [Average Heart Rate Variability](https://www.icloud.com/shortcuts/d6378e0918094124b2bfc0cd2e818aec)
+- [Lowest Resting Heart Rate](https://www.icloud.com/shortcuts/f2d51df1c47041958923c53329ec5c13)
+- [Body Temperature](https://www.icloud.com/shortcuts/84eb63dad918427884cf74dd81cf5801)
 
 > [!IMPORTANT]
 > These shortcuts are **not** a way to get around the Oura Subscription, they need to be able to access the Oura API, which is only possible **with** a subscription. Note that for *Generation 2* users this should not be a requirement, only for *Generation 3* users.
@@ -48,13 +50,6 @@ There is no _Skin Temperature_ metric in Apple Health, which is what Oura measur
 
 > [!NOTE]
 > Oura _should_ store temperature data in celsius, not fahrenheit, so 37C should automatically translate to 98.6F if you use non-metric units in Health/Oura. Please let me know if this is not the case.
-
-### Blood Oxygen Saturation <a name="spo2"></a>
-
-Oura have finally added this to the V2 API; the API docs in general are also getting much better. Note that Health may show decimals for the percentage. This is expected as Oura automatically rounds data in the app, but exists as the _true_ decimal value within the data on Oura Cloud (which the API pulls from).
-
-> [!CAUTION]
-> If you previosuly generated a key (personal access token) for use with the V1 API (or earlier versions of the V2 API), you will need to **generate a new token** for the shortcuts to be able to access blood oxygen data.
 
 ## Contributing <a name="contributing"></a>
 

@@ -13,8 +13,8 @@ Apple Shortcuts for exporting Oura data to Apple Health using the _V2 API_.
 
 ## Introduction <a name="introduction"></a>
 These shortcuts aim to export four data types from Oura to Health (click the links below to download each shortcut).
-- [Average Heart Rate Variability](https://www.icloud.com/shortcuts/9aa3052c04c64de2877339f9771212dc)
-- [Lowest Resting Heart Rate](https://www.icloud.com/shortcuts/1427ec489e90462b8a46cff3306678a0)
+- [Average Heart Rate Variability](https://www.icloud.com/shortcuts/1b1023a29d514d25bbfdcb7e40f63531)
+- [Lowest Resting Heart Rate](https://www.icloud.com/shortcuts/53e063d2f99249cfb10aed02acb24ec8)
 - [Body Temperature](https://www.icloud.com/shortcuts/53e6629a3ae6442d8e3d31b472c2d6c2)
 - [Blood Oxygen Saturation](https://www.icloud.com/shortcuts/550e3e9a53df46c6a3c2c9f2baaefd0b)
 

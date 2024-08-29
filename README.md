@@ -3,26 +3,32 @@
 Apple Shortcuts for exporting Oura data to Apple Health using the _V2 API_.
 
 ## Table of contents
+
 1. [Introduction](#introduction)
-    1. [Set-up](#set-up) 
+   1. [Set-up](#set-up)
 2. [Notes](#notes)
-    1. [Lowest Resting Heart Rate](#rhr)
-    2. [Body Temperature](#temp)
-    3. [Blood Oxygen Saturation](#spo2)
+   1. [Lowest Resting Heart Rate](#rhr)
+   2. [Body Temperature](#temp)
+   3. [Blood Oxygen Saturation](#spo2)
 3. [Contributing](#contributing)
 
 ## Introduction <a name="introduction"></a>
+
 These shortcuts aim to export four data types from Oura to Health (click the links below to download each shortcut).
+
 - [Average Heart Rate Variability](https://www.icloud.com/shortcuts/1b1023a29d514d25bbfdcb7e40f63531)
+- [List of Heart Rate Variability](https://www.icloud.com/shortcuts/b5b152c7a9d543b6ac56f2995864b0c5)
 - [Lowest Resting Heart Rate](https://www.icloud.com/shortcuts/53e063d2f99249cfb10aed02acb24ec8)
 - [Body Temperature](https://www.icloud.com/shortcuts/53e6629a3ae6442d8e3d31b472c2d6c2)
 - [Blood Oxygen Saturation](https://www.icloud.com/shortcuts/550e3e9a53df46c6a3c2c9f2baaefd0b)
 
 > [!IMPORTANT]
-> These shortcuts are **not** a way to get around the Oura Subscription, they need to be able to access the Oura API, which is only possible **with** a subscription. Note that for *Generation 2* users this should not be a requirement, only for *Generation 3* users.
+> These shortcuts are **not** a way to get around the Oura Subscription, they need to be able to access the Oura API, which is only possible **with** a subscription. Note that for _Generation 2_ users this should not be a requirement, only for _Generation 3_ users.
 
 ### Set-up <a name="set-up"></a>
+
 This is quick and simple.
+
 1. Download the desired shortcuts as linked in the introduction
 2. Generate an Oura _Personal Access Token_ (API key) [here](https://cloud.ouraring.com/personal-access-tokens)
 3. Add your key to the top of each shortcut (open up the shortcut in the app and there is a 'Text' block where the key should be pasted)
@@ -37,6 +43,10 @@ Done!
 > These shortcuts are designed for iPhone, and will not run on MacOS as there is no native Apple Health API available.
 
 ## Notes <a name="notes"></a>
+
+### List of Heart Rate Variability
+
+This pulls **all** of the Heart Rate Variability numbers produced by an Oura Ring during your sleep. Note that it is not useful to use **both** the _Average_ and _List_ feature. Use one of the options only.
 
 ### Lowest Resting Heart Rate <a name="rhr"></a>
 

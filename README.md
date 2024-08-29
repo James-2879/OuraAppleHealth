@@ -7,14 +7,17 @@ Apple Shortcuts for exporting Oura data to Apple Health using the _V2 API_.
 1. [Introduction](#introduction)
    1. [Set-up](#set-up)
 2. [Notes](#notes)
-   1. [Lowest Resting Heart Rate](#rhr)
-   2. [Body Temperature](#temp)
-   3. [Blood Oxygen Saturation](#spo2)
+
+   1. [List of Heart Rate Variability](#listhrv)
+   2. [Lowest Resting Heart Rate](#rhr)
+   3. [Body Temperature](#temp)
+   4. [Blood Oxygen Saturation](#spo2)
+
 3. [Contributing](#contributing)
 
 ## Introduction <a name="introduction"></a>
 
-These shortcuts aim to export four data types from Oura to Health (click the links below to download each shortcut).
+These shortcuts aim to export five data types from Oura to Health (click the links below to download each shortcut).
 
 - [Average Heart Rate Variability](https://www.icloud.com/shortcuts/1b1023a29d514d25bbfdcb7e40f63531)
 - [List of Heart Rate Variability](https://www.icloud.com/shortcuts/b5b152c7a9d543b6ac56f2995864b0c5)
@@ -44,7 +47,7 @@ Done!
 
 ## Notes <a name="notes"></a>
 
-### List of Heart Rate Variability
+### List of Heart Rate Variability <a name="listhrv"></a>
 
 This pulls **all** of the Heart Rate Variability numbers produced by an Oura Ring during your sleep. Note that it is not useful to use **both** the _Average_ and _List_ feature. Use one of the options only.
 

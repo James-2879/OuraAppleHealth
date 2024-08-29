@@ -7,20 +7,18 @@ Apple Shortcuts for exporting Oura data to Apple Health using the _V2 API_.
 1. [Introduction](#introduction)
    1. [Set-up](#set-up)
 2. [Notes](#notes)
-
-   1. [List of Heart Rate Variability](#listhrv)
+   1. [Continuous Heart Rate Variability](#hrv)
    2. [Lowest Resting Heart Rate](#rhr)
    3. [Body Temperature](#temp)
    4. [Blood Oxygen Saturation](#spo2)
-
 3. [Contributing](#contributing)
 
 ## Introduction <a name="introduction"></a>
 
 These shortcuts aim to export five data types from Oura to Health (click the links below to download each shortcut).
 
-- [Average Heart Rate Variability](https://www.icloud.com/shortcuts/1b1023a29d514d25bbfdcb7e40f63531)
-- [List of Heart Rate Variability](https://www.icloud.com/shortcuts/b5b152c7a9d543b6ac56f2995864b0c5)
+- [Average Heart Rate Variability](https://www.icloud.com/shortcuts/1b1023a29d514d25bbfdcb7e40f63531) (__Single__ averaged nightly value; read [notes](#hrv))
+- [Continuous Heart Rate Variability](https://www.icloud.com/shortcuts/b5b152c7a9d543b6ac56f2995864b0c5) (__All__ recorded nightly values; read [notes](#hrv))
 - [Lowest Resting Heart Rate](https://www.icloud.com/shortcuts/53e063d2f99249cfb10aed02acb24ec8)
 - [Body Temperature](https://www.icloud.com/shortcuts/53e6629a3ae6442d8e3d31b472c2d6c2)
 - [Blood Oxygen Saturation](https://www.icloud.com/shortcuts/550e3e9a53df46c6a3c2c9f2baaefd0b)
@@ -47,9 +45,14 @@ Done!
 
 ## Notes <a name="notes"></a>
 
-### List of Heart Rate Variability <a name="listhrv"></a>
+### Heart Rate Variability <a name="hrv"></a>
 
-This pulls **all** of the Heart Rate Variability numbers produced by an Oura Ring during your sleep. Note that it is not useful to use **both** the _Average_ and _List_ feature. Use one of the options only.
+Two shortcuts are available.
+- _Continuous_ pulls all values recorded by Oura for a sleep period (usually logged every five minutes). Thanks to [@exhibiton](https://github.com/exhibiton) for this shortcut.
+- _Average_ pulls only the average HRV for the night.
+
+> [!CAUTION]
+> Note that __only one__ of _Continuous_ or _Average_ HRV shortcuts should be used.
 
 ### Lowest Resting Heart Rate <a name="rhr"></a>
 

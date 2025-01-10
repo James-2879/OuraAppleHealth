@@ -24,7 +24,7 @@ These shortcuts aim to export five data types from Oura to Health (click the lin
 - [Blood Oxygen Saturation](https://www.icloud.com/shortcuts/550e3e9a53df46c6a3c2c9f2baaefd0b)
 
 > [!IMPORTANT]
-> These shortcuts are **not** a way to get around the Oura Subscription, they need to be able to access the Oura API, which is only possible **with** a subscription. Note that for _Generation 2_ users this should not be a requirement, only for _Generation 3_ users.
+> These shortcuts are **not** a way to get around the Oura Subscription, they need to be able to access the Oura API, which is only possible **with** a subscription. Note that for _Generation 2_ users this should not be a requirement, only for _Generation 3/4_ users.
 
 ### Set-up <a name="set-up"></a>
 

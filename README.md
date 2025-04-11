@@ -33,7 +33,7 @@ This is quick and simple.
 1. Download the desired shortcuts as linked in the introduction
 2. Generate an Oura _Personal Access Token_ (API key) [here](https://cloud.ouraring.com/personal-access-tokens)
 3. Add your key to the top of each shortcut (open up the shortcut in the app and there is a 'Text' block where the key should be pasted)
-4. Set up an _Automation_ in the Shortcuts App to run these shortcuts automatically every day
+4. Set up an [_automation_](https://support.apple.com/guide/shortcuts/create-a-new-personal-automation-apdfbdbd7123/ios) in the Shortcuts App to run these shortcuts automatically every day
 
 Done!
 

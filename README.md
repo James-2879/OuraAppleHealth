@@ -19,12 +19,13 @@ These shortcuts aim to export five data types from Oura to Health (click the lin
 
 - [Average Heart Rate Variability](https://www.icloud.com/shortcuts/1b1023a29d514d25bbfdcb7e40f63531) (__Single__ averaged nightly value; read [notes](#hrv))
 - [Continuous Heart Rate Variability](https://www.icloud.com/shortcuts/66849a9e5b584ce1ad48912266f8136f) (__All__ recorded nightly values; read [notes](#hrv))
+- [Historical Continuous Heart Rate Variability](https://www.icloud.com/shortcuts/7713d2103b704a95a825f0a73557d0c7) (Imports historical HRV values; read [notes](#hrv))
 - [Lowest Resting Heart Rate](https://www.icloud.com/shortcuts/53e063d2f99249cfb10aed02acb24ec8)
 - [Body Temperature](https://www.icloud.com/shortcuts/53e6629a3ae6442d8e3d31b472c2d6c2)
 - [Blood Oxygen Saturation](https://www.icloud.com/shortcuts/550e3e9a53df46c6a3c2c9f2baaefd0b)
 
 > [!IMPORTANT]
-> These shortcuts are **not** a way to get around the Oura Subscription, they need to be able to access the Oura API, which is only possible **with** a subscription. Note that for _Generation 2_ users this should not be a requirement, only for _Generation 3/4_ users.
+> These shortcuts are **not** a way to get around the Oura Subscription, they need to be able to access the Oura API, which is only possible **with** a subscription. Note that for _Generation 2_ users this should not be a requirement, only for _Generation 3/4/5_ users.
 
 ### Set-up <a name="set-up"></a>
 
@@ -50,9 +51,16 @@ Done!
 
 ### Heart Rate Variability <a name="hrv"></a>
 
-Two shortcuts are available.
+Two nightly shortcuts are available.
 - _Continuous_ pulls all values recorded by Oura for a sleep period (usually logged every five minutes). Thanks to [@exhibiton](https://github.com/exhibiton) for this shortcut.
 - _Average_ pulls only the average HRV for the night.
+
+#### Historical Data
+
+Use the `HRV Continuous Historical Data` to import data into Health for the previous 80 days. Thanks to [@artgmolina](https://github.com/artgmolina) for this shortcut.
+
+> [!TIP]
+> Change the number of days in the `Subtract x days from Current Date` code block to import data from further into the past. Note that your mileage may vary with how far back you can pull data. 
 
 > [!CAUTION]
 > Note that __only one__ of _Continuous_ or _Average_ HRV shortcuts should be used.
